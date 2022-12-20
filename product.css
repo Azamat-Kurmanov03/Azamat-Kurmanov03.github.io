@@ -1,0 +1,30 @@
+.name{
+    font-size: 46px;
+    text-align: center; 
+    text-transform: uppercase;
+    padding: 40px;
+}
+.card{
+    display: flex;
+    align-items: center;
+}
+.card img{
+    width: 30%;
+}
+.card{
+    font-size: 22px;
+    margin-bottom: 100px;
+}
+.text2{
+    margin-left: 30px;
+
+}
+@media (max-width: 768px){
+    .card img{
+        width: 40%;
+    }
+    .card{
+        font-size: 14px;
+        margin-bottom: 100px;
+    }
+}

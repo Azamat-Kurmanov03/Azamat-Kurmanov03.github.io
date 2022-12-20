@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px;
+    text-transform: uppercase;
+}
+ul{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c9161c;
+}
+li a:hover{
+    border: 1px solid wheat;
+    padding: 5px; 
+}
+@media ( max-width:768px){
+ul{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 150px;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+li{
+    padding-top: 8px;
+}
+  
+header.header-img{
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+}
+.header-img{
+    width: 100%;
+    height: 550px;
+    background: url(https://phonoteka.org/uploads/posts/2021-06/1623881880_12-phonoteka_org-p-makdonalds-pattern-krasivo-13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+h3{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.about-text{
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+}
+.contaner-about{
+    display: flex;
+    justify-content: space-evenly;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+.hedar-text{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    border: none;
+}
+.t{
+    width: 200px;
+    color: white;
+    padding-top: 20px;
+}
+.arrow{
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-width: 0px 8px 8px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+    margin-bottom: 40px;
+    
+}
+.arrow:hover{
+    border-bottom-width:4px;
+    border-right-width: 4px;
+}
+.prod-card1{
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px 0px red;
+    border-radius: 20px;
+    
+}
+.cord1{
+    box-shadow: 0px 0px 5px 0px rgb(212, 157, 157) ;
+    border-radius:20px;
+    margin-top: 60px; 
+}
+.card5{
+    box-shadow: 0px 0px 2px 0px red; 
+    padding: 20px;
+    border-radius:3px;
+    background-color: #c9161c;
+}
+.prod-image{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://static.dezeen.com/uploads/2021/02/mcdonalds-playful-packaging-pearlfisher-design__dezeen_2364_col_5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px; 
+}
+.prod-image2{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://vegnews.com/media/W1siZiIsIjIwNDU5L1ZlZ05ld3MuQmV5b25kTWVhdE1jUGxhbnQuanBnIl0sWyJwIiwiY3JvcF9yZXNpemVkIiwiMjQxNngxNDI5KzUrMCIsIjE2MDB4OTQ2XiIseyJmb3JtYXQiOiJqcGcifV0sWyJwIiwib3B0aW1pemUiXV0/VegNews.BeyondMeatMcPlant.jpg?sha=25200ef8c6656779);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    }
+    .prod-image3{
+        width: 100%;
+        height: 300px;
+        background-image: url(https://static.dezeen.com/uploads/2021/02/mcdonalds-playful-packaging-pearlfisher-design__dezeen_2364_hero_8-1024x576.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius:20px ;
+        border-top-right-radius: 20px;
+        }
+
+.red{
+    color: red; 
+    margin-bottom: 20px;
+}
+.date,.lorem,.red{
+    padding: 10px;
+} 
+.about-new_prod{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 120px;
+} 
+.image{
+    display: flex;
+}
+.image-card{
+    display: flex;
+    margin-top: 100px;
+}
+.image-card div img{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(65, 20, 20);
+}
+.text-footer{
+    color: wheat;
+    text-align: center;
+    font-size:34px ;
+    padding: 30px;
+    text-transform: uppercase;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form div{
+    color: white;
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+}
+.image-footer img{
+width: 80px;
+padding-left: 20px;
+}
+.image-footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-color: black;
+    color: wheat;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+@media (max-width: 768px){
+    ul{
+        width: auto;
+        height: 250px;
+        flex-direction: column;  
+        position: relative;
+        justify-content: center;
+    }
+    a{
+        font-size: 14px;
+    }  
+    nav ul li{
+        margin-top: 10px;
+    }
+    a:hover{ 
+        background-color: rgba(233, 232, 232, 0.62);
+        border: none;
+        display: block; 
+        padding: 2px;
+    }
+    header .header-img{
+        width: 100%;
+        height: 700px;
+        background-position: center;
+        background-size: cover;
+    }
+    #about{
+        width: auto;
+       }
+       .contaner-about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+       .image-card{
+        width: auto;
+        flex-direction: column;
+       }
+       .small{
+        margin-top: 20px;
+       }
+       .image-footer img{
+        width: 30px;
+       }
+       footer{
+        width: auto;
+        height: 600px;
+       }
+
+
+} 
+
+
+
+
